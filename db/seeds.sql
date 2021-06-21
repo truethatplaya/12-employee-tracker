@@ -1,3 +1,4 @@
+// department
 INSERT INTO department (name)
 VALUES ("Assembly");
 
@@ -17,7 +18,6 @@ INSERT INTO department (name)
 VALUES ("IT");
 
 //roles
-
 INSERT INTO role (title, salary, department_id)
 VALUES ("Chief", 125000, 1);
 
@@ -48,7 +48,7 @@ VALUES ("HR Rep", 85000, 3);
 INSERT INTO role (title, salary, department_id)
 VALUES ("Floor", 56700, 5);
 
-// employee
+// employees
 INSERT INTO employee (first_name,last_name,role_id,manager_id)
 VALUES ("Anthony","Molina",1,2);
 
