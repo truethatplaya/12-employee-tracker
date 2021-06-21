@@ -47,3 +47,29 @@ VALUES ("HR Rep", 85000, 3);
 
 INSERT INTO role (title, salary, department_id)
 VALUES ("Floor", 56700, 5);
+
+// employee
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Anthony","Molina",1,2);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Max","Jordan",2,1);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Ris","Hernandez",3,2);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("True","Dog",4,1);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Angela","Hill",5,2);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Ramon","Machado",6,1);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Janelle","Lovato",7,2);
+
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES ("Kaleena","Sedillo",3,1);
+
