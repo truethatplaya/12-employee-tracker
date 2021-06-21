@@ -4,9 +4,9 @@ CREATE database ee_trackerDB;
 USE ee_trackerDB;
 
 CREATE TABLE department(
-    id INT AUTO_INCREMENT,
-    name VARCHAR(30) NOT NULL,
-    PRIMARY KEY (id)
+  id INT AUTO_INCREMENT,
+  name VARCHAR(30) NOT NULL,
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE employee (

@@ -1,21 +1,18 @@
-const mysql = require("mysql");
+const connection = require("./connection");
 const inquirer = require("inquirer");
 
-const connection = mysql.createConnection({
-  host: "localhost",
-
-  port: 3306,
-
-  user: "root",
-
-  password: "Password1234",
-  database: "ee_trackerDB",
-});
-
-
-  connection.connect((err) => {
-    if (err) throw err;
-    console.log(`connected as id ${connection.threadId}\n`);
-    createProduct();
-  });
+const addEmployee = () => {
+  inquirer
+    .prompt([
+      {
+        name: "employeeFirstName",
+        type: "input",
+        message: "What is the employees first name",
+      },
+    ])
+    .then((data) => {
+      const query = connection.query("INSERT INTO first_name SET ?, {}");
+    });
 };
+
+addEmployee();
